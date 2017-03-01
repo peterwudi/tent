@@ -98,12 +98,17 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Configuration.cs" />
+    <Compile Include="Data\PhotoDataItem.cs" />
+    <Compile Include="Data\PhotosDataSource.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\PropertyDescriptor.cs" />
+    <Compile Include="Models\PropertyKind.cs" />
+    <Compile Include="Models\PropertyOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scenario_ShaLou.xaml.cs">
-      <DependentUpon>Scenario_ShaLou.xaml</DependentUpon>
+    <Compile Include="PhotoWall\Scenario_Photos.xaml.cs">
+      <DependentUpon>Scenario_Photos.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -113,10 +118,35 @@
     <None Include="tent_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Img\kelian.jpg" />
-    <Content Include="Img\laipi.jpg" />
-    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\Img\kelian.jpg" />
+    <Content Include="Assets\Img\laipi.jpg" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\Photos\BigFourSummerHeat.png" />
+    <Content Include="Assets\Photos\BisonBadlandsChillin.png" />
+    <Content Include="Assets\Photos\ColumbiaRiverGorge.png" />
+    <Content Include="Assets\Photos\GiantSlabInOregon.png" />
+    <Content Include="Assets\Photos\GrandTetons.png" />
+    <Content Include="Assets\Photos\ImageExPlaceholder.jpg" />
+    <Content Include="Assets\Photos\LakeAnnMushroom.png" />
+    <Content Include="Assets\Photos\LunchBreak.png" />
+    <Content Include="Assets\Photos\MilkyWayStHelensHikePurple.png" />
+    <Content Include="Assets\Photos\MitchellButtes.png" />
+    <Content Include="Assets\Photos\MultnomahFalls.png" />
+    <Content Include="Assets\Photos\NorthernCascadesReflection.png" />
+    <Content Include="Assets\Photos\NovemberHikeWaterfall.png" />
+    <Content Include="Assets\Photos\OregonWineryNamaste.png" />
+    <Content Include="Assets\Photos\Owl.png" />
+    <Content Include="Assets\Photos\PaintedHillsPathway.png" />
+    <Content Include="Assets\Photos\RunningDogPacificCity.png" />
+    <Content Include="Assets\Photos\ShootingOnAutoOnTheDrone.png" />
+    <Content Include="Assets\Photos\SmithnRockDownTheRiverView.png" />
+    <Content Include="Assets\Photos\SnowyInterbayt.png" />
+    <Content Include="Assets\Photos\SpeedTripleAtristsPoint.png" />
+    <Content Include="Assets\Photos\Van.png" />
+    <Content Include="Assets\Photos\WestSeattleView.png" />
+    <Content Include="Assets\Photos\OnlinePhotos.json" />
+    <Content Include="Assets\Photos\Photos.json" />
+    <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
@@ -141,7 +171,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Scenario_ShaLou.xaml">
+    <Page Include="PhotoWall\Scenario_Photos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
