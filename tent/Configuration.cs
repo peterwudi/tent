@@ -22,7 +22,7 @@ namespace Tent
 
         List<Scenario> scenarios = new List<Scenario>
         {
-            new Scenario() { Title="沙漏", ClassType=typeof(Scenario_ShaLou)},
+            new Scenario() { Title="照片墙", ClassType=typeof(Scenario_Photos)},
             new Scenario() { Title="2048", ClassType=typeof(Scenario_2048)},
         };
     }

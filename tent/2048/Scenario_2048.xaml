@@ -132,8 +132,8 @@
                                     BorderThickness="1">
                                 <StackPanel>
                                     <Grid>
-                                        <Image x:Name="popupImgKelian" Source="ms-appx:///Img/kelian.jpg" Margin="2" Visibility="Collapsed"/>
-                                        <Image x:Name="popupImgLaipi" Source="ms-appx:///Img/laipi.jpg" Margin="2" Visibility="Collapsed"/>
+                                        <Image x:Name="popupImgKelian" Source="ms-appx:///Assets/Img/kelian.jpg" Margin="2" Visibility="Collapsed"/>
+                                        <Image x:Name="popupImgLaipi" Source="ms-appx:///Assets/Img/laipi.jpg" Margin="2" Visibility="Collapsed"/>
                                     </Grid>                                    
                                     <TextBlock x:Name="popupText"/>
                                     <StackPanel Orientation="Horizontal">
