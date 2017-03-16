@@ -39,7 +39,8 @@ namespace Tent
         {
             Image senderImg = sender as Image;
             senderImg.Blur(value: 0, duration: 100, delay: 0).StartAsync();
-
+            //senderImg.Scale(centerX: 50.0f, centerY: 50.0f, scaleX: 3.0f, scaleY: 3.0f, duration: 100, delay: 0).StartAsync();
+            
             Grid itemGrid = VisualTreeHelper.GetParent(senderImg) as Grid;
             ListViewItemPresenter lvip = VisualTreeHelper.GetParent(itemGrid) as ListViewItemPresenter;
             GridViewItem gvi = VisualTreeHelper.GetParent(lvip) as GridViewItem;
@@ -58,6 +59,7 @@ namespace Tent
                 if (imageAutomationId != senderAutomationId)
                 {
                     image.Blur(value: 2.5, duration: 300, delay: 0).StartAsync();
+                    //image.Scale(centerX: 0.0f, centerY: 0.0f, scaleX: 1.0f, scaleY: 1.0f, duration: 100, delay: 0).StartAsync();
                 }
             }
         }

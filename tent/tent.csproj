@@ -118,6 +118,7 @@
     <None Include="tent_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\CustomSplashScreen.jpg" />
     <Content Include="Assets\Img\kelian.jpg" />
     <Content Include="Assets\Img\laipi.jpg" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
